@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Amble';;
+}
+:root{
+    --theme-color : #1eb4f9;
+    --font-color: #333;
+}
+header div .row a:hover{
+   color: var(--theme-color)  !important;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#sec-1{
+    position: absolute;
+    width: 50%;
+    /* height: 50%; */
+    /* display: inline-block; */
+    top: 50px;
+    left: 25%;
+    transform: translate((-50%,-50%));
+    /* text-align: center; */
+}
+footer{
+    margin-top: auto;
+}
