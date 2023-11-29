@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Amble';;
+}
+:root{
+    --theme-color : #1eb4f9;
+    --font-color: #333;
+}
+header div a{
+    text-decoration: none;
+    color: black;
+}
+header div .row a:hover{
+   color: var(--theme-color)  !important;
+}
+.active{
+    color: #1eb4f9;
+}
+#project-section{
+    background: rgb(230,218,206);
+    width: 100%;
+    height: 100%;
+    padding: 150px 0 60px 0;
+
+}
+#project-main{
+    width: 50%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+#project-main h3{
+    text-align: center;
+    /* padding-top: 150px; */
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+#project-main h3::before{
+    content: ' \220E';
+    color:#0d6efd;
+    padding: 10px;
+}
+.project-details{
+    margin: 50px 0;
+    width: 100%;
+}
+.card{
+    box-shadow: 5px 5px 10px 6px #979797;
+    padding: 50px;
+}
+.project-details img{
+    width: 100%;
+    height: 100%;
+    
+}
+.project-details img:hover{
+    opacity: 0.8;;
+}
+
+/* pop-up css */
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    
+}
+
+.popup-content {
+    background-color: white;
+    /* margin: 15% auto; */
+    padding: 95px;
+    border: 1px solid #888;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    transition: box-shadow 0.3s ease;
+    
+}
+
+.popup-content:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.7);
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    background-color: #D1D8DD;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0;
+}
+footer ul li{
+   list-style-type: none;
+   font-weight: bolder;
+   font-size: 18px;
+   text-align: center;
+}
+.footer-description{
+    font-weight: 100;
+    font-size: 15px;
+}
+.follow-list{
+    margin-bottom: 0;
+}
+.follow-list  li a{
+    color: black;
+    text-decoration: none;
+}

@@ -9,24 +9,62 @@
     --theme-color : #1eb4f9;
     --font-color: #333;
 }
+header div a{
+    text-decoration: none;
+    color: black;
+}
 header div .row a:hover{
    color: var(--theme-color)  !important;
+   
+}
+/* header div a:active , header div a:focus{
+    color: #1eb4f9!important;
+} */
+.active{
+    color: #1eb4f9;
 }
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-#sec-1{
-    position: absolute;
+#sec-1{  
     width: 50%;
-    /* height: 50%; */
-    /* display: inline-block; */
-    top: 50px;
-    left: 25%;
-    transform: translate((-50%,-50%));
-    /* text-align: center; */
 }
+.card{
+    border: none;
+    box-shadow:rgb(154, 144, 133), 0 1px 4px rgba(0,0,0,.6) !important;
+}
+.card-footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* footer */
 footer{
-    margin-top: auto;
+    background-color: #D1D8DD;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0;
+}
+footer ul li{
+   list-style-type: none;
+   font-weight: bolder;
+   font-size: 18px;
+   text-align: center;
+}
+.footer-description{
+    font-weight: 100;
+    font-size: 15px;
+}
+.follow-list{
+    margin-bottom: 0;
+}
+.follow-list  li a{
+    color: black;
+    text-decoration: none;
 }
