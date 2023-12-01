@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Amble';
-    ;
+    font-family: 'PT Sans', sans-serif;
+
 }
 
 :root {
@@ -408,11 +408,4 @@ footer ul li {
     header .name span {
         display: block;
     }
-     
-    header div .col a {
-        /* display: block; */
-        margin: 10px 0;
-        /* font-size: 10px; */
-        text-align: center;
-    } 
 }
