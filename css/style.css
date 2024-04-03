@@ -33,6 +33,7 @@ body {
 
 #sec-1 {
     width: 60%;
+    height: calc(100vh - 50%);
 }
 
 .card {
@@ -229,6 +230,7 @@ a {
 /* footer */
 footer {
     background-color: #D1D8DD;
+    position: fixed;
 }
 
 footer ul {
